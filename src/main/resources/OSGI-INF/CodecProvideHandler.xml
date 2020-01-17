@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="com.isoftstone.lampctl.streetlight.ProtocolAdapterImpl">
-    <implementation class="com.isoftstone.lampctl.streetlight.ProtocolAdapterImpl"/>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="com.isoftstone.lampctrl.streetlight.ProtocolAdapterImpl">
+    <implementation class="com.isoftstone.lampctrl.streetlight.ProtocolAdapterImpl"/>
     <service>
 		<provide interface="com.huawei.m2m.cig.tup.modules.protocol_adapter.IProtocolAdapter" />
 	</service>
